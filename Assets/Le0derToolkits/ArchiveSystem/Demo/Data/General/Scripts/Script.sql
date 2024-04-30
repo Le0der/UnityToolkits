@@ -1,0 +1,1 @@
+UPDATE Localization SET "key" = LOWER("key") 

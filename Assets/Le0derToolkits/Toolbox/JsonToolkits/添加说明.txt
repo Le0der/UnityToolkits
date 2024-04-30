@@ -1,0 +1,4 @@
+该工具需要依赖第三方库：
+	1. 依赖库：Newtonsoft Json
+	2. 添加方式：
+		PackageManage  => Add from Url => com.unity.nuget.newtonsoft-json

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+	<item id="NodeList/SQLiteTableColumn">
+		<column name="列名" visible="true" order="0" width="158"/>
+		<column name="#" visible="true" order="1" width="100"/>
+		<column name="数据类型" visible="true" order="2" width="100"/>
+		<column name="Length" visible="true" order="3" width="100"/>
+		<column name="非空" visible="true" order="4" width="100"/>
+		<column name="自动递增" visible="true" order="5" width="100"/>
+		<column name="默认" visible="true" order="6" width="100"/>
+		<column name="描述" visible="true" order="7" width="100"/>
+	</item>
+	<item id="Suggestion/NodeList/SQLiteTableColumn">
+		<column name="列名" visible="true" order="0" width="156"/>
+		<column name="#" visible="true" order="1" width="127"/>
+		<column name="数据类型" visible="false" order="2" width="100"/>
+		<column name="Length" visible="false" order="3" width="100"/>
+		<column name="非空" visible="false" order="4" width="100"/>
+		<column name="自动递增" visible="false" order="5" width="100"/>
+		<column name="默认" visible="false" order="6" width="100"/>
+		<column name="描述" visible="true" order="2" width="140"/>
+	</item>
+	<item id="scriptSelectorViewer">
+		<column name="脚本" visible="true" order="0" width="139"/>
+		<column name="时间" visible="true" order="1" width="195"/>
+		<column name="信息" visible="true" order="2" width="83"/>
+		<column name="文件夹" visible="true" order="3" width="95"/>
+	</item>
+</items>

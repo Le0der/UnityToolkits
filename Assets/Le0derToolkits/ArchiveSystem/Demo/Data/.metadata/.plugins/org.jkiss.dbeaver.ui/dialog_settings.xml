@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="DBeaver.DriverTabbedViewer">
+		<item key="folder" value="sql"/>
+	</section>
+	<section name="DBeaver.ActiveWizardDialog.NewConnectionWizard">
+		<item key="DIALOG_X_ORIGIN" value="458"/>
+		<item key="DIALOG_Y_ORIGIN" value="73"/>
+		<item key="DIALOG_WIDTH" value="543"/>
+		<item key="DIALOG_HEIGHT" value="566"/>
+		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>
+	</section>
+	<section name="DriverDownload">
+	</section>
+	<section name="DBeaver.DriverDownloadDialog">
+		<item key="DIALOG_X_ORIGIN" value="458"/>
+		<item key="DIALOG_Y_ORIGIN" value="132"/>
+		<item key="DIALOG_WIDTH" value="525"/>
+		<item key="DIALOG_HEIGHT" value="518"/>
+		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>
+	</section>
+	<section name="ResultSetViewer">
+		<section name="presentations">
+			<section name="spreadsheet">
+				<item key="enabledPanelIds" value="value-view"/>
+				<item key="activePanelId" value="value-view"/>
+				<item key="panelRatio" value="300"/>
+				<item key="panelsVisible" value="false"/>
+				<item key="verticalLayout" value="false"/>
+			</section>
+		</section>
+	</section>
+	<section name="DBeaver.ShowTipOfTheDayDialog">
+		<item key="DIALOG_X_ORIGIN" value="311"/>
+		<item key="DIALOG_Y_ORIGIN" value="405"/>
+		<item key="DIALOG_WIDTH" value="352"/>
+		<item key="DIALOG_HEIGHT" value="262"/>
+		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>
+	</section>
+	<section name="DBeaver.ViewSQLDialog">
+		<item key="DIALOG_X_ORIGIN" value="699"/>
+		<item key="DIALOG_Y_ORIGIN" value="234"/>
+		<item key="DIALOG_WIDTH" value="538"/>
+		<item key="DIALOG_HEIGHT" value="526"/>
+		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>
+	</section>
+	<section name="DBeaver.QM.LogViewer">
+	</section>
+	<section name="DBeaver.TransactionLogDialog">
+		<item key="DIALOG_X_ORIGIN" value="479"/>
+		<item key="DIALOG_Y_ORIGIN" value="382"/>
+		<item key="DIALOG_WIDTH" value="979"/>
+		<item key="DIALOG_HEIGHT" value="303"/>
+		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>
+	</section>
+	<section name="DBeaver.ScriptSelectorPopup">
+		<item key="DIALOG_X_ORIGIN" value="691"/>
+		<item key="DIALOG_Y_ORIGIN" value="334"/>
+		<item key="DIALOG_WIDTH" value="555"/>
+		<item key="DIALOG_HEIGHT" value="375"/>
+		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>
+	</section>
+	<section name="DBeaver.EditObjectDialog.EditAttributePage">
+		<item key="DIALOG_X_ORIGIN" value="706"/>
+		<item key="DIALOG_Y_ORIGIN" value="278"/>
+		<item key="DIALOG_WIDTH" value="525"/>
+		<item key="DIALOG_HEIGHT" value="459"/>
+		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>
+	</section>
+</section>

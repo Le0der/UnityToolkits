@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<drivers>
+	<provider id="sqlite">
+		<driver id="sqlite_jdbc" categories="sql,embedded" name="SQLite" class="org.sqlite.JDBC" url="jdbc:sqlite:{file}" description="SQLite JDBC driver" custom="false" embedded="true" anonymous="true">
+			<library type="jar" path="maven:/org.xerial:sqlite-jdbc:RELEASE" custom="false">
+				<file id="org.xerial:sqlite-jdbc:RELEASE" version="3.45.2.0" path="${drivers_home}\maven\maven-central\org.xerial\sqlite-jdbc-3.45.2.0.jar"/>
+				<file id="org.slf4j:slf4j-api:1.7.36" version="1.7.36" path="${drivers_home}\maven\maven-central\org.slf4j\slf4j-api-1.7.36.jar"/>
+			</library>
+			<library type="license" path="https://www.apache.org/licenses/LICENSE-2.0.txt" custom="false">
+				<file id="https://www.apache.org/licenses/LICENSE-2.0.txt" path="${drivers_home}\remote\licenses\LICENSE-2.0.txt"/>
+			</library>
+		</driver>
+	</provider>
+</drivers>
