@@ -4,9 +4,9 @@ using System.Linq;
 using SQLite4Unity3d;
 using UnityEngine;
 
-namespace Le0derToolkit.ArchiveSystem
+namespace Le0der.ArchiveSystem
 {
-    public class DatabaseDataService
+    public class DatabaseService
     {
 #if UNITY_EDITOR
         private const string m_dbPathFormat = "{0}/Le0derToolkits/ArchiveSystem/Demo/Data/{1}.db";
@@ -17,7 +17,7 @@ namespace Le0derToolkit.ArchiveSystem
         private string _databasePath;
         private SQLiteConnection _connection;
 
-        public DatabaseDataService(string dbFileName)
+        public DatabaseService(string dbFileName)
         {
             // 在构造函数中初始化数据库连接
             _databasePath = string.Format(m_dbPathFormat, Application.dataPath, dbFileName);

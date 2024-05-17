@@ -2,21 +2,18 @@
 using System;
 using System.IO;
 using UnityEngine;
-using Le0derToolkit.Toolbox;
+using Le0der.Toolbox;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace Le0derToolkit.ArchiveSystem
+namespace Le0der.ArchiveSystem
 {
     public class JsonDataService : IDataService
     {
         private const string KEY = "aBDHL9b4ihsiT5fXGU+/voGjyq5JEmYlpZyOuITNSTI=";
         private const string IV = "meTrOAkkrpKWeUyuHDPP8w==";
-        private const string m_pathformat = "{0}{1}";
-        public bool SaveData<T>(string relativePath, T data, bool encrypted)
+        public bool SaveData<T>(string path, T data, bool encrypted)
         {
-            string path = string.Format(m_pathformat, Application.persistentDataPath, relativePath);
-
             try
             {
                 if (File.Exists(path))
@@ -45,14 +42,13 @@ namespace Le0derToolkit.ArchiveSystem
             }
         }
 
-        public T LoadData<T>(string relativePath, bool encrypted)
+        public T LoadData<T>(string path, bool encrypted)
         {
-            string path = string.Format(m_pathformat, Application.persistentDataPath, relativePath);
             if (!File.Exists(path))
             {
                 var errorInfo = $"Unable to load data due to: File not found at path: {path}";
-                Debug.LogError(errorInfo);
-                throw new FileNotFoundException(errorInfo);
+                Debug.LogWarning(errorInfo);
+                return default;
             }
 
             try
@@ -72,8 +68,8 @@ namespace Le0derToolkit.ArchiveSystem
             }
             catch (Exception e)
             {
-                Debug.LogError($"Unable to load data due to: {e.Message}; StackTrace: {e.StackTrace}");
-                throw e;
+                Debug.LogWarning($"Unable to load data due to: {e.Message}; StackTrace: {e.StackTrace}");
+                return default;
             }
         }
 
