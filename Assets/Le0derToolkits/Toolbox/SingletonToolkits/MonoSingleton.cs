@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Le0derToolkit.Toolbox
+namespace Le0der.Toolbox
 {
     [AutoSingleton(true)]
     public class MonoSingleton<T> : MonoBehaviour where T : MonoBehaviour

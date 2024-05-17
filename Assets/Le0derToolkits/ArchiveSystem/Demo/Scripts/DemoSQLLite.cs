@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using System;
-using Le0derToolkit.Toolbox;
+using Le0der.Toolbox;
 using System.Text;
 
 
-namespace Le0derToolkit.ArchiveSystem
+namespace Le0der.ArchiveSystem
 {
     public class DemoSQLLite : MonoBehaviour
     {
@@ -18,11 +18,11 @@ namespace Le0derToolkit.ArchiveSystem
         [SerializeField] private TMP_InputField _saveDataTimes;
         [SerializeField] private TMP_InputField _loadDataId;
 
-        private DatabaseDataService _dataService;
+        private DatabaseService _dataService;
 
         private void Start()
         {
-            _dataService = new DatabaseDataService("demotest");
+            _dataService = new DatabaseService("demotest");
             _sourceDataText.text = "Sources Data Here.";
             _loadDataText.text = "Load Data Here.";
         }

@@ -1,4 +1,4 @@
-namespace Le0derToolkit.Toolbox
+namespace Le0der.Toolbox
 {
     public abstract class Singleton<T> where T : class, new()
     {
