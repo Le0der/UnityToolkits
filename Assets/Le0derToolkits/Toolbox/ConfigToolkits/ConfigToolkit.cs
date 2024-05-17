@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Le0derToolkit.Toolbox
+namespace Le0der.Toolbox
 {
     public class ConfigToolkit : Singleton<ConfigToolkit>
     {

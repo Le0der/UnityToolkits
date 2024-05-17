@@ -5,7 +5,7 @@ using ChartAndGraph;
 using UnityEngine;
 using TMPro;
 
-namespace Le0derToolkit.GraphAndChart
+namespace Le0der.GraphAndChart
 {
     public class UIGraphChartMultiple : MonoBehaviour
     {

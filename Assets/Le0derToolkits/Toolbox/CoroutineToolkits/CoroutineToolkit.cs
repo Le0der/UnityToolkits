@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Le0derToolkit.Toolbox
+namespace Le0der.Toolbox
 {
     // 简单工具类，不需要提前放到场景之中
     public class CoroutineToolkit : MonoBehaviour

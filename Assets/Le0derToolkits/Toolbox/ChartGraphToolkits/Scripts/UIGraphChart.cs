@@ -5,7 +5,7 @@ using ChartAndGraph;
 using UnityEngine;
 using TMPro;
 
-namespace Le0derToolkit.GraphAndChart
+namespace Le0der.GraphAndChart
 {
     //配合预制体使用
     public class UIGraphChart : MonoBehaviour

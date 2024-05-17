@@ -2,7 +2,7 @@ using System;
 using Newtonsoft.Json;
 using UnityEngine;
 
-namespace Le0derToolkit.Toolbox
+namespace Le0der.Toolbox
 {
     public static class JsonToolkit
     {
